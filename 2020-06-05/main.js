@@ -14,6 +14,7 @@ var app = http.createServer(function(request,response){
     }
     response.writeHead(200);
     fs.readFile(`data/${queryData.id}`, 'utf8', function(err, description){
+        //특정 디렉토리 안에서 파일을 읽어서 description이라는 변수값을 생성
       var template = `
       <!doctype html>
       <html>
