@@ -55,7 +55,7 @@ var app = http.createServer(function(request,response){
             <li><a href="/?id=JavaScript">JavaScript</a></li>
           </ul>
           <h2>${title}</h2>
-          <p>${description}</p>
+          <p>${description}</p> 
         </body>
         </html>
         `;
