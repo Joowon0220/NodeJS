@@ -29,7 +29,7 @@ var app = http.createServer(function(request,response){
           <li><a href="/?id=CSS">CSS</a></li>
           <li><a href="/?id=JavaScript">JavaScript</a></li>
         </ul>
-        <h2>${title}</h2>
+        <h2>${title}</h2> //동적인 웹 구현
         <p>${description}</p>
       </body>
       </html>
